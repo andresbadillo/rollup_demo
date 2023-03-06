@@ -1,0 +1,32 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "Curso de empaquetadores web - Rollup",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --config web-dev-server.config.js",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresbadillo/rollup_demo.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "Andres Badillo <r.andres.badillo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresbadillo/rollup_demo/issues"
+  },
+  "homepage": "https://github.com/andresbadillo/rollup_demo#readme",
+  "devDependencies": {
+    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-image": "^3.0.2",
+    "@web/dev-server": "^0.1.35",
+    "rollup": "^3.18.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^4.3.0"
+  },
+  "type": "module"
+}
